@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#cfcfcf">
+
+    <ImageView
+        android:src="@drawable/beans"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/ivItems"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Potato"
+            android:id="@+id/tvItems"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:textColor="#020202" />
+
+        <EditText
+            android:inputType="number"
+            android:background="#cfcfcf"
+            android:textSize="15dp"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/etQuantity"
+            android:paddingLeft="10dp"
+            android:hint="Q"
+            android:textColor="#010101"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/tvItems"
+            android:layout_alignStart="@+id/tvItems" />
+
+
+        <TextView
+            android:hint="pr"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:id="@+id/tvPrice"
+            android:textColor="#010101"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="right"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:textColor="#010101"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:hint="/kg"
+            android:id="@+id/tvScale"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tvPrice"
+            android:layout_toEndOf="@+id/tvPrice"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:hint="ecost"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:id="@+id/tvEstCost"
+            android:layout_alignTop="@+id/tvPrice"
+            android:layout_toLeftOf="@+id/btnAddItem"
+            android:layout_toStartOf="@+id/btnAddItem"
+            android:textColor="#010101"
+            android:paddingTop="5dp" />
+
+        <Button
+            android:textColor="#000"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/btnAddItem"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="+"
+            android:background="#33ff05"
+            android:textSize="25dp" />
+
+        <TextView
+            android:textColor="#010101"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:text="Rs."
+            android:id="@+id/tvDeno"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tvPrice"
+            android:layout_toStartOf="@+id/tvPrice"
+            android:gravity="right"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:textColor="#010101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:id="@+id/textView"
+            android:layout_above="@+id/tvPrice"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textColor="#010101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Est. Cost"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/tvScale"
+            android:layout_toLeftOf="@+id/btnAddItem"
+            android:layout_toStartOf="@+id/btnAddItem"
+            android:paddingRight="5dp" />
+
+    </RelativeLayout>
+</LinearLayout>

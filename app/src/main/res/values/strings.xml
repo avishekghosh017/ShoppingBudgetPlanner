@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">ShoppingBudgetPlanner</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="item_text">
+        <item>Potato</item>
+        <item>Onion</item>
+        <item>Ginger</item>
+        <item>Garlic</item>
+        <item>Beans</item>
+        <item>Carrot</item>
+        <item>Cabbage</item>
+        <item>Cauliflower</item>
+        <item>Pumpkin</item>
+        <item>Radish</item>
+        <item>Beetroot</item>
+        <item>Broccoli</item>
+        <item>Mushroom</item>
+        <item>Pea</item>
+        <item>Capsicum</item>
+        <item>Tomato</item>
+        <item>Sweet Potato</item>
+        <item>Chili</item>
+        <item>Cucumber</item>
+        <item>Corn</item>
+        <item>Drumstick</item>
+        <item>Brinjal</item>
+        <item>Ladys Finger</item>
+        <item>Spinach</item>
+        <item>Tamarind</item>
+        <item>Peppermint</item>
+        <item>Curry Leaf</item>
+    </string-array>
+
+    <array name="item_image">
+        <item>@drawable/potato</item>
+        <item>@drawable/onion</item>
+        <item>@drawable/ginger</item>
+        <item>@drawable/garlic</item>
+        <item>@drawable/beans</item>
+        <item>@drawable/carrot</item>
+        <item>@drawable/cabbage</item>
+
+        <item>@drawable/cauliflower</item>
+        <item>@drawable/pumpkin</item>
+        <item>@drawable/raddish</item>
+        <item>@drawable/beetroot</item>
+        <item>@drawable/broccoli</item>
+        <item>@drawable/mushroom</item>
+        <item>@drawable/peas</item>
+        <item>@drawable/capsicum</item>
+        <item>@drawable/tomato</item>
+        <item>@drawable/sweetpotato</item>
+        <item>@drawable/chili</item>
+        <item>@drawable/cucumber</item>
+        <item>@drawable/corn</item>
+        <item>@drawable/drumstick</item>
+        <item>@drawable/brinjal</item>
+        <item>@drawable/ladysfinger</item>
+        <item>@drawable/spinach</item>
+        <item>@drawable/tamarind</item>
+        <item>@drawable/peppermint</item>
+        <item>@drawable/curryleaf</item>
+    </array>
+
+    <string-array name="item_price">
+        <item>18</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50</item>
+        <item>40</item>
+        <item>60</item>
+        <item>10</item>
+
+        <item>18</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50</item>
+        <item>40</item>
+        <item>18</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50</item>
+        <item>40</item>
+        <item>18</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50</item>
+        <item>40</item>
+        <item>18</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50</item>
+        <item>40</item>
+
+    </string-array>
+
+    <string-array name="item_scale">
+        <item>/kg</item>
+        <item>/500g</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/pc</item>
+
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/pc</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/pc</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/pc</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/kg</item>
+        <item>/pc</item>
+    </string-array>
+    <string name="title_activity_about_app">AboutAppActivity</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+
+</resources>
